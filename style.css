@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url("img/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    background-color: #fff;
+    width: 20vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh;
+}
+
+.searchBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20vw;
+    margin-bottom: 5vh;
+}
+
+#searchQuery {
+    /* border: 1px solid gray; */
+    border: none;
+    border-bottom: 1px solid rgb(164, 67, 254);
+    outline: none;
+    padding: 8px 20px;
+    transition: 0.4s;
+}
+
+#searchBtn {
+    background-color: rgb(164, 67, 254);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 8px 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#searchBtn:hover {
+    background-color: white;
+    color: rgb(164, 67, 254);
+    border: 1px solid rgb(164, 67, 254);
+}
+.row {
+    margin: 1vh 0;
+    width: 20vw;
+}
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.first h3 {
+    color: rgb(164, 67, 254);
+}
+.first svg {
+    cursor: pointer;
+    filter: drop-shadow(10px 10px 50px #303030);
+}
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 2vh;
+}
+.second p {
+    font-size: 13px;
+    color: rgb(106, 106, 106);
+}
+.third {
+    margin-bottom: 2vh;
+}
+.third p {
+    font-size: 13px;
+}
+.fourth p {
+    border-left: 5px solid rgb(164, 67, 254);
+    font-size: 13px;
+    padding-left: 0.5vw;
+}
+#pronounce {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+@media screen and (max-width: 600px){
+    body {
+        background-size: cover;
+    }
+    .container {
+        width: 65vw;
+    }
+    .searchBox {
+        width: 65vw;
+    }
+    .searchResult {
+        width: 65vw;
+    }
+    .row {
+        width: 65vw;
+    }
+}

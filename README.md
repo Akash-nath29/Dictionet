@@ -1,6 +1,6 @@
 # Dictionet 📘
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Akash-nath29/Dictionet/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/Akash-nath29/Dictionet/blob/main/LICENSE)
 [![GitHub forks](https://img.shields.io/github/forks/Akash-nath29/Dictionet.svg)](https://github.com/YourUsername/Dictionet/network)
 [![GitHub stars](https://img.shields.io/github/stars/Akash-nath29/Dictionet.svg)](https://github.com/YourUsername/Dictionet/stargazers)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/Akash-nath29/Dictionet.svg)](https://github.com/YourUsername/Dictionet/pulls)
